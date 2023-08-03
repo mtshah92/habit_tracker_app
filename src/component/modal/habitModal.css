@@ -1,0 +1,15 @@
+.habitModal {
+  display: flex;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  flex-direction: column;
+  line-height: 0.2;
+  width: 400px;
+  border: 1px solid;
+  z-index: 999999;
+  background-color: #334155;
+  color: #ffffff;
+  padding: 1rem;
+  /* flex-shrink: 1; */
+}

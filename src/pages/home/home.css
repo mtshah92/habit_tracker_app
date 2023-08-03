@@ -1,0 +1,24 @@
+.habit-card {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.new-habit {
+  position: relative;
+  margin: 0.5rem;
+}
+.new-habit :hover {
+  cursor: pointer;
+}
+.habit-img {
+  height: 200px;
+  width: 400px;
+  border-radius: 0.5rem;
+}
+.habit-name {
+  position: absolute;
+  font-weight: 600;
+  font-size: 24px;
+  left: 4px;
+}
